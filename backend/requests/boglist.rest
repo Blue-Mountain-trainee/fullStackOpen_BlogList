@@ -1,0 +1,11 @@
+### 全取得
+GET http://localhost:3003/api/blogs/
+
+### 新規作成
+POST http://localhost:3003/api/blogs/
+Content-Type: application/json
+
+{
+  "title": "感想",
+  "author": "Aoyama"
+}
